@@ -1,0 +1,92 @@
+html, body, .first-section, .capa{
+    height: 100%;
+    overflow:auto;
+}
+.navbar{
+    padding: 30px;
+    background: 0,0,0,0.6;
+}
+.nav-item{
+    padding: 0px 30px; 
+}
+.nav-link{
+    font-weight: 500;
+    font-size: 20px;
+}
+.brand-icon{
+    color: white;
+    padding-top: 10px;
+}
+.first-section{
+    background-image: url(../img/background1.jpg);
+    background-size: cover;
+
+}
+.capa{
+    display: table;
+    width: 100%;
+    height: 85%;
+}
+.texto-capa{
+    font-family:'McLaren';
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+.btn-verde{
+    background: mediumseagreen;
+    color: white; 
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 30px;
+}
+.nav-icon{
+    padding: 0 10px;
+}
+.second-section {
+    background-color: #f6f6f6;
+    background-image: url(../img/celular.jpg);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: 75%;
+}
+.second-section h3, .third-section h3{
+    color: mediumseagreen;
+    text-transform: uppercase;
+    font-family: 'McLaren';
+    font-size: 20px;
+    padding-top: 50px;
+}
+.second-section p, .third-section p{
+    padding: 30px 0;
+    font-family: 'McLaren';
+    font-size: 13px;
+}
+.second-section .btn-verde{
+    margin-bottom: 25px;
+}
+h1{
+    font-family:'McLaren';
+    color: white;
+    text-transform: uppercase;
+    font-weight: -500;
+    letter-spacing: 0.10em;
+}
+h2{
+    font-family:'McLaren';  
+    color: white;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+
+/*Alterações Andri*/
+
+.media-social {
+    margin: 0 auto;
+    display: inline-flex;
+}
+.media-social a {
+    color:white;
+}

@@ -34,7 +34,7 @@ html, body, .first-section, .capa{
     vertical-align: middle;
 }
 .btn-verde{
-    background: mediumseagreen;
+    background:#16a085;
     color: white; 
     text-transform: uppercase;
     font-size: 14px;
@@ -67,7 +67,7 @@ html, body, .first-section, .capa{
     background-size: cover;
 }
 .second-section h3, .third-section h3{
-    color: mediumseagreen;
+    color: #16a085;
     text-transform: uppercase;
     font-family: 'McLaren';
     font-size: 20px;
@@ -117,15 +117,19 @@ html, body, .first-section, .capa{
 .fifth-section i{
     color: white;
     position: absolute;
-    top: 4%;
-    right: 6%;
-    background-color: mediumseagreen;
-    padding: 10px 10px;
+    top: 2%;
+    right: 5%;
+    background-color:#16a085;
+    padding: 11px 11px;
     border-radius: 0 4px 4px 0;
 
 }
+.sixth-section {
+    background-color: #f6f6f6;
+    height: 70vh;
+}
 .sixth-section h3{
-    color: mediumseagreen;
+    color: black;
     text-transform: uppercase;
     font-family: 'McLaren';
     font-size: 20px;
@@ -140,7 +144,7 @@ html, body, .first-section, .capa{
     font-size: 13px;
 }
 .sixth-section .btn-verde{
-    background: rgb(78, 150, 110);
+    background: #1abc9c;
     color: white; 
     text-transform: uppercase;
     font-size: 14px;
@@ -159,17 +163,37 @@ html, body, .first-section, .capa{
     font-size: 20px;
     text-align: right;
     position: relative;
-    background-color: mediumseagreen;
+    background-color: #16a085;
     margin: -1px 0;
     border-radius: 0 4px 4px 0;
 }
+.apple{
+    margin-right: 10px;
+}
 .apple-icon{
     left: 79px;
-    padding: 6px 12px;
+    padding: 11px 12px;
 }
 .android-icon{
     left: 86px;
-    padding: 6px 11px;
+    padding: 11px 11px;
+}
+footer{
+    height: 10vh;
+}
+.nav-footer li{
+    text-transform: uppercase;
+    font-family: 'McLaren';
+    font-size: 13px;
+    padding: 0 5px;
+}
+.separador {
+    color: #16a085;
+}
+.footer-corp {
+    font-family: 'McLaren';
+    font-size: 13px;
+    padding-left: 5px;    
 }
 .owl-nav .owl-prev span{
     position: absolute;

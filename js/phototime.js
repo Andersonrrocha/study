@@ -9,8 +9,8 @@ $(document).ready(function(){
                 nav:true
             },
             600:{
-                items:3,
-                nav:false
+                items:2,
+                nav:true
             },
             1000:{
                 items:2,
@@ -19,4 +19,4 @@ $(document).ready(function(){
             }
         }
     })
-  });
+});

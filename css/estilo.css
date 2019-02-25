@@ -17,6 +17,9 @@ html, body, .first-section, .capa{
     color: white;
     padding-top: 10px;
 }
+
+/* Primeira Section */
+
 .first-section{
     background-image: url(../img/background1.jpg);
     background-size: cover;
@@ -43,6 +46,8 @@ html, body, .first-section, .capa{
 .nav-icon{
     padding: 0 10px;
 }
+/* Segunda Section */
+
 .second-section {
     background-color: #f6f6f6;
     background-image: url(../img/celular.jpg);
@@ -50,40 +55,59 @@ html, body, .first-section, .capa{
     background-position-y: top;
     background-position-x: 85%;
 }
-.third-section {
-    background-image: url(../img/celular2.jpeg);
-    background-repeat: no-repeat;
-    background-position-y: 100px; 
-    background-position-x:10%;
-}
-.fourth-section {
-    background-color: #f6f6f6;
-    text-align: center;
-}
-.fifth-section {
-    height: 90%;
-    background-image: url(https://designculture.com.br/wp-content/uploads/2017/05/capa-fotolia-instant.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.second-section h3, .third-section h3{
+.second-section h3{
     color: #16a085;
     text-transform: uppercase;
     font-family: 'McLaren';
     font-size: 20px;
     padding-top: 100px;
 }
-.second-section p, .third-section p{
+.second-section p{
     padding: 30px 0;
     font-family: 'McLaren';
     font-size: 13px;
 }
-.second-section .btn-verde, .third-section .btn-verde{
+.second-section .btn-verde{
     margin-bottom: 80px;
+}
+
+/* Terceira Section */
+
+.third-section {
+    background-image: url(../img/celular2.jpeg);
+    background-repeat: no-repeat;
+    background-position-y: 100px; 
+    background-position-x:10%;
+}
+.third-section h3{
+    color: #16a085;
+    text-transform: uppercase;
+    font-family: 'McLaren';
+    font-size: 20px;
+    padding-top: 100px;
+}
+.third-section p{
+    padding: 30px 0;
+    font-family: 'McLaren';
+    font-size: 13px;
+}
+.third-section .btn-verde{
+    margin-bottom: 80px;
+}
+
+/* Quarta Section */
+
+.fourth-section {
+    background-color: #f6f6f6;
+    text-align: center;
+}
+@media only screen and (min-width: 768px) {
+    .section-icon{
+        padding-top:50%; 
+    }
 }
 .section-icon{
     text-align: center;
-    padding-top:50%; 
 }
 .fourth-section i{
     color: black;
@@ -91,20 +115,33 @@ html, body, .first-section, .capa{
 .fourth-section .owl-carousel{
     padding-top: 100px;
 }
-/* .slides {
-    padding: 7px;
-} */
-/* .slides img{
-    max-width: 100%;
-    height: 100%;
-    display: block;
-} */
+.owl-nav .owl-prev span{
+    position: absolute;
+    top: 35px;
+    right: 3%;
+    font-size: 50px;
+}
+.owl-nav .owl-next span{
+    position: absolute;
+    top: 35px;
+    right: 0;
+    font-size: 50px;
+}
+
+/* Quinta Section */
+
+.fifth-section {
+    height: 80vh;
+    background-image: url(https://designculture.com.br/wp-content/uploads/2017/05/capa-fotolia-instant.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .fifth-section h3{
     color: mediumseagreen;
     text-transform: uppercase;
     font-family: 'McLaren';
     font-size: 20px;
-    padding-top: 150px;
+    padding-top: 200px;
     padding-bottom: 20px;
     text-align: center;
 }
@@ -118,12 +155,15 @@ html, body, .first-section, .capa{
     color: white;
     position: absolute;
     top: 2%;
-    right: 5%;
+    right: 1%;
     background-color:#16a085;
     padding: 11px 11px;
     border-radius: 0 4px 4px 0;
 
 }
+
+/* Sexta Section */
+
 .sixth-section {
     background-color: #f6f6f6;
     height: 70vh;
@@ -134,7 +174,6 @@ html, body, .first-section, .capa{
     font-family: 'McLaren';
     font-size: 20px;
     padding-top: 100px;
-    /* padding-bottom: 20px; */
     text-align: center;
 }
 .sixth-section p{
@@ -145,47 +184,63 @@ html, body, .first-section, .capa{
 }
 .sixth-section .btn-verde{
     background: #1abc9c;
-    color: white; 
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
     text-align: left;
-    padding: 0px 10px;
-    width: 215px;
+    padding:0;
+    width: 45%;
+    margin: 2%;
 }
-.download-section {
+.download-text {
     margin: 0 auto;
+    font-size: 20px;
+}
+.download-buttons {
+    margin: 0 auto;
+    font-size: 20px;
+    width: 100%;
+    color: white; 
+
 }
 .download-app{
     max-width: 45%;
 }
-.download-section i{
+.download-buttons i{
+    box-sizing: border-box;
     font-size: 20px;
     text-align: right;
-    position: relative;
+    float: right;
     background-color: #16a085;
     margin: -1px 0;
     border-radius: 0 4px 4px 0;
 }
-.apple{
-    margin-right: 10px;
+.download-buttons span {
+    float: left;
+    box-sizing: border-box;
+    padding:4%;
 }
 .apple-icon{
-    left: 79px;
-    padding: 11px 12px;
+    padding: 4% 5%;
 }
 .android-icon{
-    left: 86px;
-    padding: 11px 11px;
+    padding: 4% 4.5%;
 }
+
+/* Footer */
+
 footer{
     height: 10vh;
+}
+.nav-footer ul{
+    padding-top: 10px;
 }
 .nav-footer li{
     text-transform: uppercase;
     font-family: 'McLaren';
     font-size: 13px;
     padding: 0 5px;
+    margin-top: 10px;
 }
 .separador {
     color: #16a085;
@@ -195,20 +250,9 @@ footer{
     font-size: 13px;
     padding-left: 5px;    
 }
-.owl-nav .owl-prev span{
-    position: absolute;
-    top: 35px;
-    right: 3%;
-    font-size: 50px;
 
-}
-.owl-nav .owl-next span{
-    position: absolute;
-    top: 35px;
-    right: 0;
-    font-size: 50px;
+/* Titulos */
 
-}
 h1{
     font-family:'McLaren';
     color: white;
@@ -222,8 +266,6 @@ h2{
     font-size: 18px;
     padding-bottom: 15px;
 }
-
-
 .media-social {
     margin: 0 auto;
     display: inline-flex;
